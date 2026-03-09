@@ -38,12 +38,14 @@ h2{
     padding-left:8px;
     font-weight:600;
     margin:0;
+    color:#666;
 }
 
 .signin-title{
     font-size:24px;
     font-weight:600;
     margin-top:20px;
+    color: #201F1E;
 }
 
 .input-field{
