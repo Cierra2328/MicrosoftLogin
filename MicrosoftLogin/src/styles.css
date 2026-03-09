@@ -1,0 +1,136 @@
+html, body{
+    height:100%;
+    margin:0;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(to bottom, #f2f6fb, #ffffff);
+}
+
+/* centers everything on the page */
+.page{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
+
+/* white login card */
+.container{
+    width:350px;
+    padding:40px;
+    background:white;
+    box-shadow:0 2px 10px rgba(0,0,0,0.15);
+}
+
+/* logo + text */
+.title{
+    display:flex;
+    align-items:center;
+}
+
+img{
+    max-height:2em;
+}
+
+h2{
+    padding-left:8px;
+    font-weight:600;
+    margin:0;
+}
+
+.signin-title{
+    font-size:24px;
+    font-weight:600;
+    margin-top:20px;
+}
+
+.input-field{
+    width:100%;
+    padding:10px;
+    margin-top:15px;
+    border:none;
+    border-bottom:1px solid #888;
+    font-size:16px;
+}
+
+.input-field:focus{
+    outline:none;
+    border-bottom:2px solid #0067b8;
+}
+
+.no-account{
+    margin-top:15px;
+    font-size:14px;
+}
+
+.no-account a{
+    color:#0067b8;
+    text-decoration:none;
+}
+
+.signin-options{
+    margin-top:10px;
+}
+
+.signin-options a{
+    color:#0067b8;
+    text-decoration:none;
+}
+
+.buttons{
+    display:flex;
+    justify-content:flex-end;
+    margin-top:30px;
+    gap:10px;
+}
+
+.back-btn{
+    padding:10px 20px;
+    min-width:100px;
+    background:#e1e1e1;
+    border:none;
+    font-size:14px;
+    cursor:pointer;
+}
+
+.next-btn{
+    padding:10px 20px;
+    min-width:100px;
+    background:#0067b8;
+    color:white;
+    border:none;
+    font-size:14px;
+    cursor:pointer;
+}
+
+.footer{
+    position:absolute;
+    bottom:10px;
+    right:20px;
+    font-size:12px;
+}
+
+.footer a{
+    margin-left:15px;
+    color:#666;
+    text-decoration:none;
+}
+
+.back-btn:hover{
+    background:#d6d6d6;
+}
+
+.next-btn:hover{
+    background:#005da6;
+}
+
+button:focus{
+    outline:none;
+}
+
+button{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
